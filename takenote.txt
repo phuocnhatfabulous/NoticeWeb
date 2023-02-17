@@ -1,0 +1,7 @@
+- File .mjs để sử dụng await ở ngoài root mà k cần bọc trong function
+- Khi làm việc với GraphQL cần nắm rõ: resolve, schema
+- GraphQL có 3 kiểu operation type: 
+    + type Query: Hoạt động truy vấn dữ liệu từ phía clients
+    + type Mutation: Hoạt động trong cập nhật, xóa dữ liệu
+    + type Subscription: Trả dữ liệu từ server đến clients realtime 
+- export default thì phải thêm "type": "module" trong package.json
